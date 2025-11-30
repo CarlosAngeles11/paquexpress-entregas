@@ -1,0 +1,36 @@
+# ---- PYTHON / FASTAPI ----
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Carpetas temporales
+*.log
+*.sqlite3
+
+# Archivos de configuración sensibles
+.env
+
+# Carpeta de evidencias (uploads)
+api/uploads/*
+uploads/*
+
+# ---- FLUTTER ----
+# Generated directories
+build/
+.ios/
+.android/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+
+# Dart/Pub
+.dart_tool/
+pubspec.lock
+
+# ---- SISTEMA ----
+.DS_Store
+Thumbs.db
